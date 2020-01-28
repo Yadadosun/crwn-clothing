@@ -7,7 +7,6 @@
     justify-content: center;
     border: 1px solid black;
     margin: 0 7.5px 15px;
-    background-image: url(./cloud.jpg);
     overflow: hidden;
 
     &:hover {
@@ -40,8 +39,8 @@
         width: 100%;
         height: 100%;
         background-position: center;
-        background-size: auto;
-        background-image: url(./cloud.jpg);
+        background-size: cover;
+
     }
 
     .content {
